@@ -92,9 +92,13 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hy0-iq-7Qx">
-                                <rect key="frame" x="224" y="851" width="320" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hy0-iq-7Qx">
+                                <rect key="frame" x="230" y="851" width="350" height="50"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="BLf-dz-4K8"/>
+                                    <constraint firstAttribute="height" constant="50" id="HE8-wN-VhF"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
                                 <state key="normal" title="Customize Dashboard">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -119,6 +123,7 @@
                             <constraint firstItem="s56-fR-IYo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cnX-AN-4sA"/>
                             <constraint firstItem="fZA-Ye-yZ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="dJM-to-4g8"/>
                             <constraint firstItem="Ryc-Zu-NBN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gII-vn-M04"/>
+                            <constraint firstItem="hy0-iq-7Qx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ixR-uz-IZo"/>
                             <constraint firstItem="Ryc-Zu-NBN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="k3a-zC-w74"/>
                             <constraint firstItem="Uxd-7u-dh4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="nPI-Gv-mED"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fZA-Ye-yZ9" secondAttribute="trailing" constant="24" id="x1A-t3-EZz"/>
@@ -134,8 +139,8 @@
                                 <exclude reference="YUs-kp-bz1"/>
                                 <exclude reference="HHm-gI-Hav"/>
                                 <exclude reference="4II-Zc-ww8"/>
-                                <exclude reference="NQ9-DC-LXZ"/>
                                 <exclude reference="Npz-eh-Y7w"/>
+                                <exclude reference="NQ9-DC-LXZ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -148,11 +153,11 @@
                                 <exclude reference="z92-zy-xox"/>
                                 <include reference="4II-Zc-ww8"/>
                                 <exclude reference="WGw-hh-jXd"/>
+                                <exclude reference="0fo-mn-fxb"/>
+                                <include reference="Npz-eh-Y7w"/>
                                 <include reference="NQ9-DC-LXZ"/>
                                 <exclude reference="TWu-RA-TSb"/>
                                 <exclude reference="cnX-AN-4sA"/>
-                                <exclude reference="0fo-mn-fxb"/>
-                                <include reference="Npz-eh-Y7w"/>
                             </mask>
                         </variation>
                     </view>
